@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	    flex-wrap: wrap;
+	    padding-top: 15px;
+}
+
+body{
+	background-color:#5EC4CD ;
+	font-family: Yanone Kaffeesatz;
+
+
+
+}
+.main{
+	background-color:#FFBE73;
+	display: flex;
+	width: 95%;
+	max-width: 1210px;
+	margin: auto;
+	box-shadow:0 0 20px 3px rgba(64, 224, 208);
+	flex-wrap: wrap;
+	padding-top: auto;
+	border-style: solid;
+	border-color: orangered	;
+	box
+
+	
+
+}
+.item{
+	height: 360px;
+	width: 585px;
+	background-color: dodgerblue;
+	
+	  background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 5px;
+
+
+
+}
+h1{
+	text-align: center;
+	padding-top: 5px;
+	margin:20px ;
+	color: #FF5900;
+	background-color:orange ;
+	border-style: solid;
+	border-color: orangered;
+	box-shadow:0 0 6px 1px rgba(0, 139, 139) ;
+
+}
+.heading {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+.img_link:hover{
+	opacity: 1;
+	transform: scale(1.2) rotate(2deg);
+	z-index: 30;
+	box-shadow: 0 0 200px 30px rgba(0,0,0,0.3);
+	margin: 5px;
+
+	
+
+}
+.img_link{
+	transition: 0.8s ease, transform 0.3s ease-in;
+	opacity: 0.7;
+}
+@font-face{
+	font-family:Yanone Kaffeesatz ;
+	src:url(../fonts/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
