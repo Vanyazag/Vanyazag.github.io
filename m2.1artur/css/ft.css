@@ -1,0 +1,33 @@
+.img-box{
+	column-count: 4;
+	column-gap: 3px;
+	width: 85%;
+	margin: auto;
+}
+.image{
+	max-width:100% ;
+	display: block;
+	filter: sepia(1);
+}
+.image+.image{margin: 5px 5px;}
+.image:hover{
+	filter: sepia(0);
+}
+.heading{
+	text-align: center;
+	font-size: 40px;
+	color: blue;
+}
+body{
+	background-color: #6595AC;
+	font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Wet Paint', cursive;
+}
+@media all and (max-width: 768px){
+	.img-box{
+		column-count: 1;
+	}
+}
+a{
+	text-decoration: none;
+}
